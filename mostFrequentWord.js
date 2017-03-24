@@ -60,3 +60,10 @@ Line 11 will execute if line 10 is true. It will take words from wordFrequencies
 Line 13 says if line 10 is NOT true, then it will execute line 14.
 Line 14 says that the arrays of words[i] = 1.
 **And that is the end of the mostFrequentWord function.**
+
+Line 17 creates a variable called `currentMaxKey` which uses the Object.keys method to 
+    iterate over wordFrequencies to get back the keys of the object wordFrequencies as an 
+    array, starting from index 0. 
+Line 18 creates a variable called `currentMaxCount` which assigns the function 
+    wordFrequencies with the currentMaxKey in an array.
+
