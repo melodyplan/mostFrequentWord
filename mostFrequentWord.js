@@ -41,13 +41,22 @@ Line 3 returns the value to a lower case format and splits what was input accord
     sure if it was `!.";:-]+/` or `!.";:-] + `/``) comes up, there will be a split.
     Then it removes the falsy items from the array and sorts it. Since there was no sort 
     comparison given, the array is sorted according to unicode code point value.
+**This is the end of the getTokens function**
+
 Line 6 is creating a function called `mostFrequentWord` with a value named `text`.
-Line 7 creates a variable called `words` that `getTokens(text)` within the 
-    mostFrequentWord function. 
+Line 7 creates a variable called `words` that uses the getTokens function with the value
+    `text` within the mostFrequentWord function. 
 Line 8 creates a variable called `wordFrequencies` which equals curly brackets within the 
     mostFrequentWord function.
 Line 9 creates a for loop that has three arguments: a setup, a comparison, and a change. 
     The first argument has the variable starting at index 0 (the setup), the second 
     argument compares the first argument to whether the length of the words is less than 
-    or equal to i (the comparison), and the last argument says, if it is, the new i = i+i.
-Line 10 introduces an if else  
+    or equal to i (the comparison), and the last argument says, if it is, the new 
+    i = i + 1.
+Line 10 introduces an if else  statement. It says if the words in [i] in wordFrequencies 
+    execute what happens in line 11.
+Line 11 will execute if line 10 is true. It will take words from wordFrequencies and 
+    increment it. In this case, words[i] = words[i] + 1. 
+Line 13 says if line 10 is NOT true, then it will execute line 14.
+Line 14 says that the arrays of words[i] = 1.
+**And that is the end of the mostFrequentWord function.**
