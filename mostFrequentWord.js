@@ -41,3 +41,13 @@ Line 3 returns the value to a lower case format and splits what was input accord
     sure if it was `!.";:-]+/` or `!.";:-] + `/``) comes up, there will be a split.
     Then it removes the falsy items from the array and sorts it. Since there was no sort 
     comparison given, the array is sorted according to unicode code point value.
+Line 6 is creating a function called `mostFrequentWord` with a value named `text`.
+Line 7 creates a variable called `words` that `getTokens(text)` within the 
+    mostFrequentWord function. 
+Line 8 creates a variable called `wordFrequencies` which equals curly brackets within the 
+    mostFrequentWord function.
+Line 9 creates a for loop that has three arguments: a setup, a comparison, and a change. 
+    The first argument has the variable starting at index 0 (the setup), the second 
+    argument compares the first argument to whether the length of the words is less than 
+    or equal to i (the comparison), and the last argument says, if it is, the new i = i+i.
+Line 10 introduces an if else  
