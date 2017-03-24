@@ -67,3 +67,10 @@ Line 17 creates a variable called `currentMaxKey` which uses the Object.keys met
 Line 18 creates a variable called `currentMaxCount` which assigns the function 
     wordFrequencies with the currentMaxKey in an array.
 
+Line 20 creates another for loop for the variable `word` in the function `wordFrequencies`.
+Line 21 introduces another if statement. If the wordFrequencies[word] is greater than the 
+    currentMaxCount, that is, if it runs true, then Lines 21-23 will execute.
+Line 22 says the currentMaxKey is the `word`.
+Line 23 says the currentMaxCount is the `wordFrequency[word]`.
+Line 26 will return the currentMaxKey in the console. 
+
